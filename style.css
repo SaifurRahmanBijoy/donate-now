@@ -1,3 +1,8 @@
+ *{
+    margin: 0%;
+    padding: 0%;
+}
+
 h1 {
     font-family: 'Inter', sans-serif;
     text-align: center;
@@ -12,6 +17,7 @@ p {
     padding-right: 280px;
     font-size: 65px;
     color: white;
+    padding-top: 150px;
 }
 
 .para1 {
@@ -64,6 +70,12 @@ p {
     margin-bottom: 3%;
 }
 
+#align-2 {
+    color: red;
+    border: solid 3px red;
+    background-color: rgba(255, 0, 0, 0.074);
+}
+
 .align {
     text-align: center;
     width: 18%;
@@ -73,11 +85,13 @@ p {
     color: rgb(91, 91, 91);
     background-color: rgba(10, 10, 10, 0.038);
     border: 0;
+    border-radius: 5px;
 }
 
 .hrtag {
     width: 50%;
     text-align: center;
+    margin: 0% auto;
 }
 
 .section2 {
@@ -129,7 +143,8 @@ p {
     background-color: rgba(255, 236, 170, 0.492);
 
 }
-.subscribe{
+
+.subscribe {
     text-align: center;
     flex: auto;
     background-color: bisque;
@@ -139,14 +154,18 @@ p {
     margin-right: 300px;
     margin-bottom: 100px;
 }
-.buttonlast{
+
+.buttonlast {
     color: white;
     background-color: red;
     border: 0;
     border-radius: 2px;
     margin-left: -9px;
-    padding: 3.5px;
+    padding: 4px;
+    margin-bottom: -5px;
+
 }
+
 .email-input {
     background-color: rgb(255, 250, 250);
     border: 0;
@@ -154,18 +173,66 @@ p {
     padding: 3.5px;
     font-family: 'Courier New', Courier, monospace;
 }
-.donate-input{
+
+.donate-input {
     border: 0;
     font-family: 'Courier New', Courier, monospace;
 
 }
-footer{
+
+footer {
     background-color: rgb(0, 0, 0);
-    padding-top: 15px;
-    padding-bottom: 15px;
-    color: rgb(245, 34, 34);
-    text-align:center;
+    padding-top: 10px;
+    padding-bottom: 20px;
+    text-align: center;
 }
-footer h1{
-    font-size: larger;
+
+#footer-head {
+    font-family: 'Lobster', cursive;
+    font-size: 35px;
+    color: rgb(245, 34, 34);
+}
+
+#footer-paragraph {
+    color: aliceblue;
+    font-size: 13px;
+}
+
+.flex2 {
+    
+    display: flex;
+    padding-left: 100px;
+    padding-right: 100px;
+    margin-top: 250px;
+    margin-bottom: 250px;
+}
+
+#bonus-heading {
+    padding-left: 5%;
+    padding-right: 5%;
+    padding-top: 10%;
+}
+
+#bonus-img {
+    padding-left: 5%;
+    padding-right: 5%;
+
+}
+
+#heading3 {
+    color: rgb(0, 0, 0);
+    font-size: 45px;
+    padding-bottom: 10px;
+    text-align: left;
+    padding-top: 120px;
+}
+
+#button2 {
+    font-family: 'Poppins', sans-serif;
+    padding: 13px 32px;
+    color: white;
+    border-radius: 5px;
+    text-decoration: none;
+    background-color: red;
+    text-align: left;
 }
